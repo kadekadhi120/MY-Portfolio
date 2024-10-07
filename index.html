@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- Nav Menu -->
+    <nav>
+        <div class="nav-container" data-aos="fade-down" data-aos-duration="1000">
+            <div class="logo">
+            </div>
+            <div class="links">
+                <div class="link"><a href="#">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#service">PROJECT</a></div>
+                <div class="link"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="fade-right" data-aos-duration="1500">
+                <img src="image/adhi.jpg" alt="Adhi">
+            </div>
+            <div class="content" data-aos="fade-left" data-aos-duration="1500">
+                <h1>Hey I'm <span>Adhi</span></h1>
+                <div class="typewriter" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="typing-text">I'm a <span></span></h3>
+                </div>
+                <p>Welcome to my Personal Website, </p>
+                <p>You can click the icon below to see my social media</p>
+                <div class="social-links" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://github.com/kadekadhi120"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/kdadhi0"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/i-kadek-prasetya-adhi-nugraha-5503942b8/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+6282111318887"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="btn" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://wa.me/+6282111318887">
+                        <button >Contact Me</button>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="zoom-in" data-aos-duration="1000"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="image/adhi.jpg" alt="Adhi">
+                </div>
+                <div class="right" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="topic">Learning By Doing</div>
+                    <p>Perkenalkan Saya I Kadek Prasetya Adhi Nugraha, biasa dipanggil Adhi Saya adalah mahasiswa jurusan Computer Science di Bina Nusantara University dengan minat besar dalam Ilmu Komputer. Selama masa studi, saya telah mengembangkan keterampilan dalam pengembangan web developer dan perangkat lunak dan berkomitmen untuk terus belajar dan mengasah kemampuan saya.
+                    </p>
+                    <div class="button">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="zoom-in" data-aos-duration="1000"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1000"><h1>Skill Reflects Our Knowledge</h1></div>
+                    <div class="deskrip-skill">
+                        <p data-aos="fade-right" data-aos-duration="1000">Skill yang telah saya pelajari</p>
+                    </div>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="num"><h2>University Bina Nusantara</h2></div>
+                        <div class="exp">Study <br> Experience</div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="topic">HTML</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="topic">CSS</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="topic">JavaScript</div>
+                        <div class="per">40%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="topic">C</div>
+                        <div class="per">70%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="topic">Laravel</div>
+                        <div class="per">80%</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <div class="topic">Mysql</div>
+                        <div class="per">70%</div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="service" id="service">
+        <div class="content">
+            <div class="title" data-aos="zoom-in" data-aos-duration="1000"><span>My Project</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="flip-left" data-aos-duration="1000">
+                    <div class="icon"><i class="fas fa-desktop"></i></div>
+                    <div class="topic">RESCUEAID INDONESIA</div>
+                    <div class="des">
+                        <p>Project ini membuat sebuah website Pendonasi makanan bagi orang yang membutuhkan. Project ini juga berisikan database admin panel yang dibuat dengan bahasa PHP dan Framework Laravel</p>
+                        <br>
+                    </div>
+                </div>
+                <div class="box" data-aos="flip-right" data-aos-duration="1000">
+                    <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                    <div class="topic">MAMURA</div>
+                    <div class="des">
+                        <p>Project ini membuat sebuah prototpye website revolusioner yang menjual sisa makanan yang masih layak konsumsi dengan harga terjangkau. Temukan berbagai hidangan dari restoran favorit Anda yang bisa Anda nikmati dengan diskon besar. Dengan Mamura, Anda tidak hanya menghemat uang, tetapi juga membantu menyelamatkan bumi.</p>
+                        <br>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="button" data-aos="fade-up" data-aos-duration="1000">
+                <a href="https://github.com/kadekadhi120">
+                    <button >View Project</button>
+                </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="zoom-in" data-aos-duration="1000"><span>Contact Me</span></div>
+            <div class="text" data-aos="fade-up" data-aos-duration="1000">
+                <div class="topic">Do you have any job vacancies?</div>
+                <p>If there are any vacancies and I meet the required criteria, feel free to contact me below.</p>
+                <div class="button">
+                    <a href="https://wa.me/+6282111318887">
+                        <button>Let's Chat</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100, // Jarak muncul animasi dari viewport
+            duration: 1000, // Durasi animasi dalam milidetik
+            easing: 'ease-in-out', // Efek easing animasi
+            once: true // Apakah animasi hanya dijalankan satu kali
+        });
+    </script>
+
+<script>
+    let lastScrollTop = 0; // Untuk menyimpan posisi scroll terakhir
+    const navbar = document.querySelector('nav'); // Mengambil elemen navbar
+
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Scroll ke bawah
+            navbar.style.top = '-10vh'; // Menyembunyikan navbar
+        } else {
+            // Scroll ke atas
+            navbar.style.top = '0'; // Menampilkan navbar
+        }
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Untuk mencegah nilai negatif
+    });
+</script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0})
+    </script>
+
+
+</body>
+</html>
